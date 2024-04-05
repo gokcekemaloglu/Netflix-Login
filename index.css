@@ -1,0 +1,46 @@
+*{
+    color: white;
+}
+
+.body{
+    background-image: url(./background_image.jpg);
+}
+
+.container{
+    border: 2px;
+    margin: 20px 100px;
+    background-color: rgb(0, 0, 0, 0.2);
+    /* text-align: center; */
+}
+
+#survey-form{
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 2px;
+    margin: 100px 50px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC", sans-serif;
+    letter-spacing: 0.1cap ;
+}
+
+#n{
+    font-size: 55px;
+}
+
+#f{
+    font-size: 55px;
+    color: red;
+}
+
+#span1{
+    color: red;
+}
+
+.subtitle{
+    font-family: "Sorts Mill Goudy", serif;
+    text-align: center;
+    font-size: 23px;
+}
