@@ -11,17 +11,19 @@
 .container{
     border: 2px;
     margin: 20px 100px;
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0, 0.3);
     /* text-align: center; */
     /* width: 500px; */
 }
 
 #survey-form{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 60px;
     background-color: rgb(0, 0, 0, 0.8);
-    border: 2px;
-    margin: 50px 50px;
-    width: 400px;
-    padding: 10px;
+    /* border: 2px; */     
 }
 
 .heading{
@@ -48,4 +50,59 @@
     font-family: "Sorts Mill Goudy", serif;
     text-align: center;
     font-size: 23px;
+}
+#name{
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+}
+
+#age{
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+}
+
+#email{
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+}
+
+#Ctype{
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    /* padding: 0px 2px 1px; */
+    white-space: nowrap;
+}
+
+.textarea{
+    margin-top: 10px;
+}
+
+#submit{
+    font-size: larger;
+    margin: 16px 0px 16px 150px;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    color: white;
 }
